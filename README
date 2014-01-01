@@ -1,5 +1,5 @@
 This is a plugin for palaver-voice-recognition
 
-It is a program to control Google Calender. You will have to do some editing to the file to link it to your google account. In the actions .dat file, you will need to change <gmail username> to your gmail address, and <gmail password> to your google password.
+It is a program to control Google Calender. You will have to do some editing to the file to link it to your google account. In the actions .dat file, you will need to change <gmail username> to your gmail address, and <gmail password> to your google password. Then compress all the files (excluding README) into Cal.tar.gz. To make it into a plugin, rename it to Cal.sp. The computer may giv a warning, but don't worry, it will work. You can then install the Cal.sp file
 
 If you have any problems, please email me: timtjtim@gmail.com. My name is Tim Hitchins.
