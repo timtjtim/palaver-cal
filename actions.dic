@@ -1,0 +1,14 @@
+<s,S>et <r,R>eminder (WORD<January,Febuary,March,April,May,June,July,August,September,October,Novemeber,December> month) [<t,T>he] (WORD<1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th,11th,12th,13th,14th,15th,16th,17th,18th,19th,20th,21th,22th,23th,24th,25th,26th,27th,28th,29th,30th,31st> date) (LINE event)
+  cal 'gcalcli --user <gmail address> --pw <gmail password> quick "$month$ $date$ $event$"'
+
+<s,S>et <r,R>eminder (WORD<January,Febuary,March,April,May,June,July,August,September,October,Novemeber,December> month) [<t,T>he] (WORD<1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31> date) (LINE event)
+  cal 'gcalcli --user <gmail address> --pw <gmail password> quick "$month$ $date$ $event$"'
+
+What am I doing for the next (WORD number) [<week,weeks>]
+  cal "xterm -hold -e gcalcli --user <gmail address> --pw <gmail password> --cal <chosen calendar> calw $number$"
+
+agenda (LINE number) [<week,weeks>]
+  cal "xterm -hold -e gcalcli --user <gmail address> --pw <gmail password> --cal <chosen calendar> calw $number$"
+
+Display calendar [for the next] (WORD number) [<week,weeks>
+  cal "xterm -hold -e gcalcli --user <gmail address> --pw <gmail password> --cal <chosen calendar> calw $number$"

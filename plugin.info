@@ -1,0 +1,11 @@
+name = Cal
+version = 1.1
+description = Control Google Calendar via voice
+file = cal
+author = Tim Hitchins
+actions = 
+Set reminder (month) (date with st/nd/th) (time and event name), adds an event to google calender on the (date with st/nd/th) of (month) with details (time and event name). It uses quick add.
+Set reminder (month) the (date without st/nd/th) (time and event name), adds an event to google calender on the (date without st/nd/th) of (month) with details (time and event name). It uses quick add.
+What am I doing for the next (number) (weeks or week (optional)), displays the calender for the next (number) of weeks in xterm
+aganda (number) (weeks or week (optional)), displays the calender for the next (number) of weeks in xterm
+Display calendar (for the next (optional)) (number) (weeks or week (optional)), displays the calender for the next (number) of weeks in xterm
